@@ -7,10 +7,10 @@ const DEFAULT_IMAGE =
   "https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?q=80&w=1546&auto=format&fit=crop";
 
 const ImageCard = ({ name, imageSrc, description, altText, onClick }) => {
-  const t = useTranslator();
+  const translator = useTranslator();
 
-  const titleText = t(messages.title, { name });
-  const descriptionText = description ?? t(messages.description);
+  const titleText = translator(messages.title, { name });
+  const descriptionText = description ?? translator(messages.description);
   const resolvedImageSrc = imageSrc ?? DEFAULT_IMAGE;
 
   return (
