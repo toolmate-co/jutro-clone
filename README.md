@@ -29,34 +29,39 @@ This is **architecture-first**, not a demo app.
 
 src/
 ├── components/
-│ ├── common/
-│ │ ├── ImageCard/
-│ │ │ ├── ImageCard.jsx
-│ │ │ ├── ImageCard.messages.js
-│ │ │ ├── ImageCard.module.scss
-│ │ │ └── index.js
-│ │ └── index.js
-│ └── index.js
+│   ├── common/
+│   │   ├── ImageCard/
+│   │   │   ├── ImageCard.jsx
+│   │   │   ├── ImageCard.messages.js
+│   │   │   ├── ImageCard.module.scss
+│   │   │   └── index.js
+│   │   └── index.js
+│   └── index.js
+│
 ├── constants/
-│ ├── app.js
-│ ├── ui.js
-│ ├── regex.js
-│ └── index.js
+│   ├── app.js
+│   ├── ui.js
+│   ├── regex.js
+│   └── index.js
+│
 ├── i18n/
-│ ├── defineMessages.js
-│ ├── messages.js
-│ ├── translator.js
-│ └── index.js
+│   ├── defineMessages.js
+│   ├── messages.js
+│   ├── translator.js
+│   └── index.js
+│
 ├── styles/
-│ ├── \_colors.scss
-│ ├── \_spacing.scss
-│ ├── \_typography.scss
-│ ├── \_radii.scss
-│ ├── \_shadows.scss
-│ ├── \_tokens.scss
-│ └── index.scss
+│   ├── _colors.scss
+│   ├── _spacing.scss
+│   ├── _typography.scss
+│   ├── _radii.scss
+│   ├── _shadows.scss
+│   ├── _tokens.scss
+│   └── index.scss
+│
 ├── App.jsx
 └── main.jsx
+
 
 ---
 
